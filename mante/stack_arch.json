@@ -1,0 +1,5 @@
+[{"tag":"ctrl",        "init":"fresh",              "steps":3500,"batch":512},
+ {"tag":"hetero",      "init":"fresh", "tau":"hetero", "steps":3500,"batch":512},
+ {"tag":"softplus",    "init":"fresh", "act":"softplus", "steps":3500,"batch":512},
+ {"tag":"hetero_cont", "init":"count_w_skewed.npz", "tau":"hetero", "steps":3500,"batch":512},
+ {"tag":"normloss",    "init":"fresh", "loss":"norm", "steps":3500,"batch":512}]

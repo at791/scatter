@@ -1,0 +1,4 @@
+[{"tag":"p_pc",          "init":"fresh", "gen":"pulse+pausecur", "tau":"hetero", "pausecur":{"max":500,"frac":0.6}, "steps":3500, "batch":512},
+ {"tag":"p_hold_pc",     "init":"fresh", "gen":"pulse+pausecur", "tau":"hetero", "pausecur":{"max":500,"frac":0.6}, "hold":4, "steps":3500, "batch":512},
+ {"tag":"p_sym_hold_pc", "init":"fresh", "gen":"pulse+pausecur", "tau":"hetero", "pausecur":{"max":500,"frac":0.6}, "hold":4, "sym":true, "steps":3500, "batch":512},
+ {"tag":"p_hold_pc_s2",  "init":"fresh", "gen":"pulse+pausecur", "tau":"hetero", "pausecur":{"max":500,"frac":0.6}, "hold":4, "seed":2, "steps":3500, "batch":512}]

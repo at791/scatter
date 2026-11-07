@@ -1,0 +1,6 @@
+[{"tag":"p_ctrl",       "init":"fresh", "gen":"pulse",     "tau":"hetero", "steps":3500, "batch":512},
+ {"tag":"p_hold",       "init":"fresh", "gen":"pulse",     "tau":"hetero", "hold":4, "steps":3500, "batch":512},
+ {"tag":"p_adapt",      "init":"fresh", "gen":"pulse",     "tau":"hetero", "adapt":{"tau":500,"g":0.5}, "steps":3500, "batch":512},
+ {"tag":"p_adapt_hold", "init":"fresh", "gen":"pulse",     "tau":"hetero", "adapt":{"tau":500,"g":0.5}, "hold":4, "steps":3500, "batch":512},
+ {"tag":"p_pos",        "init":"fresh", "gen":"pulse+pos", "tau":"hetero", "steps":3500, "batch":512},
+ {"tag":"p_std",        "init":"fresh", "gen":"pulse",     "steps":3500, "batch":512}]

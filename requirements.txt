@@ -1,0 +1,5 @@
+numpy
+# GPU training and the LSTM control (count_multi.py, count_torch.py, count_pre.py, count_succ.py, count_lstm.py, count_curves.py):
+torch
+# figures (count_landscape.py, count_cueswap.py, count_wells_viz.py):
+matplotlib

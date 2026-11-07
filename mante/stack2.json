@@ -1,0 +1,8 @@
+[{"tag":"s_gapnoise","init":"fresh","gen":"pulse","tau":"hetero","hold":4,"gapnoise":4,"steps":3500,"batch":512},
+ {"tag":"s_selfexc","init":"fresh","gen":"pulse","tau":"hetero","hold":4,"selfexc":1.5,"steps":3500,"batch":512},
+ {"tag":"s_gapnoise_selfexc","init":"fresh","gen":"pulse","tau":"hetero","hold":4,"gapnoise":4,"selfexc":1.5,"steps":3500,"batch":512},
+ {"tag":"s_softplus","init":"fresh","gen":"pulse","tau":"hetero","hold":4,"act":"softplus","steps":3500,"batch":512},
+ {"tag":"s_slow","init":"fresh","gen":"pulse","tau":"hetero","tau_frac":0.5,"tau_range":[1000,5000],"hold":4,"steps":3500,"batch":512},
+ {"tag":"s_pc200","init":"fresh","gen":"pulse+pausecur","tau":"hetero","hold":4,"pausecur":{"max":200,"frac":0.6},"steps":3500,"batch":512},
+ {"tag":"s_seed3","init":"fresh","gen":"pulse","tau":"hetero","hold":4,"seed":3,"steps":3500,"batch":512},
+ {"tag":"s_pre","init":"count_w_pre.npz","transfer":true,"gen":"pulse","hold":4,"steps":3500,"batch":512}]
